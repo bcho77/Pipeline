@@ -13,17 +13,14 @@ pipeline {
         
         stage('Build') {
             steps {
-                // Build your application (e.g., compile, package)
-                //sh 'mvn clean package' // Adjust this command based on your project's build process
-              echo "i love you"
+              echo 'i love you'
             }
         }
         
         stage('Deploy') {
             steps {
-                // Deploy your application (e.g., copy files, deploy to a server)
-                //sh 'scp target/your-app.war user@your-server:/path/to/deployment/directory' // Example SCP command
-              echo "i love you"
+                
+              echo 'i love you' 
             }
         }
     }
