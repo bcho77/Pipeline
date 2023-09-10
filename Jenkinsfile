@@ -5,10 +5,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from a Git repository
-                script {
-                    git 'https://github.com/bcho77/Pipeline.git'
-                }
-            }
+                 git 'https://github.com/bcho77/Pipeline.git'
+               }
         }
         
         stage('Build') {
